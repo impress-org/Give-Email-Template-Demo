@@ -3,176 +3,405 @@
  * Email Body
  */
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+$header_img = give_get_option( 'email_logo', '' );
 ?>
 
-<table bgcolor="#f6f4f5" width="100%" cellpadding="0" cellspacing="0" border="0" st-sortable="preheader"><tbody><tr>
-        <td width="100%">
-            <table width="580" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody>
-                <!-- Spacing --><tr>
-                    <td width="100%" height="5">
-                    </td>
-                </tr>
-                <!-- Spacing --><tr>
-                    <td align="right" valign="middle" style="font-family: Helvetica, arial, sans-serif; font-size: 10px;color: #999999" st-content="preheader">
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="preheader"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody>
+<!-- Spacing --><tr>
+<td width="100%" height="10">
+                                            </td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td align="center" valign="middle" style="font-family: Helvetica, arial, sans-serif; font-size: 10px;color: #303030;text-align:center;" st-content="viewonline">
+                                                <p>
+                                                    &nbsp;
+                                                </p>
+                                            </td>
+                                            <!-- Spacing -->
 
-                    </td>
-                </tr>
-                <!-- Spacing --><tr>
-                    <td width="100%" height="5">
-                    </td>
-                </tr>
-                <!-- Spacing -->
-                </tbody></table>
-        </td>
-    </tr></tbody></table>
-<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" st-sortable="header"><tbody><tr>
-        <td>
-            <table width="580" bgcolor="#66BB6A" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
-                    <td>
-                        <!-- logo -->
+                                        </tr>
+<tr>
+<td width="100%" height="10">
+                                            </td>
+                                        </tr>
+<!-- Spacing -->
+</tbody></table>
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="header"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table bgcolor="#303030" width="560" cellpadding="0" cellspacing="0" border="0" align="center" style="border-top-left-radius:5px;border-top-right-radius:5px;" class="devicewidth"><tbody>
+<!-- Spacing --><tr>
+<td height="10" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td>
+                                                <!-- logo -->
 
-                        <table width="280" cellpadding="0" cellspacing="0" border="0" align="left" class="devicewidth"><tbody><tr>
-                                <td valign="middle" width="270" style="padding: 10px 0 10px 20px;" class="logo">
-                                    &nbsp;
-                                </td>
-                            </tr></tbody></table>
-                        <!-- End of logo --><!-- menu --><table width="280" cellpadding="0" cellspacing="0" border="0" align="right" class="devicewidth"><tbody><tr>
-                                <td width="270" valign="middle" style="font-family: Helvetica, Arial, sans-serif;font-size: 14px; color: #ffffff;line-height: 24px; padding: 10px 0;" align="right" class="menu" st-content="menu">
-                                    <p>
-                                        <a style="text-decoration: none; color: #ffffff;" href="https://givewp.com">HOME</a> | <a style="text-decoration: none; color: #ffffff;" href="https://givewp.com/about-give">ABOUT</a> | <a style="text-decoration: none; color: #ffffff;" href="https://givewp.com/addons">SHOP</a>
-                                    </p>
-                                </td>
-                                <td width="20">
-                                </td>
-                            </tr></tbody></table>
-                        <!-- End of Menu -->
-                    </td>
-                </tr></tbody></table>
-        </td>
-    </tr></tbody></table>
-<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" st-sortable="bigimage"><tbody><tr>
-        <td>
-            <table bgcolor="#ffffff" width="580" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth" hasbackground="true"><tbody>
-                <tr>
-                    <td width="100%" height="20">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <table width="540" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner"><tbody>
-                            <tr>
-                                <!-- start of image --><td align="center">
-                                    <div class="imgpop">
-                                        <a href="#"><img width="540" border="0" height="282" alt="" style="display:block; border:none; outline:none; text-decoration:none;" src="<?php echo get_give_email_images() ;?>give-logo-with-faces.png" class="bigimage" st-image="edit" id="nlg0v2wzagxqdx0kjrmxtj4i"></a>
-                                    </div>
-                                </td>
-                            </tr>
-                            <!-- end of image --><!-- Spacing --><tr>
-                                <td width="100%" height="20">
-                                </td>
-                            </tr>
-                            <!-- Spacing --><!-- title --><tr>
-                                <td style="font-family: Helvetica, arial, sans-serif; font-size: 18px; color: #333333; text-align:left;line-height: 20px;" st-title="rightimage-title">
-                                    <p>
-                                       Thank You!  
-                                    </p>
-                                </td>
-                            </tr>
-                            <!-- end of title --><!-- Spacing --><tr>
-                                <td width="100%" height="20">
-                                   <p>&nbsp;</p>
-                                </td>
-                            </tr>
-                            <!-- Spacing --><!-- content --><tr>
-                                <td style="font-family: Helvetica, arial, sans-serif; font-size: 13px; color: #95a5a6; text-align:left;line-height: 24px;" st-content="rightimage-paragraph">
-                                    {email}
-                                </td>
-                            </tr>
-                            <!-- end of content --><!-- Spacing --><tr>
-                                <td width="100%" height="10">
-                                </td>
-                            </tr>
-                            <!-- Spacing --><tr>
-                                <td width="100%" height="20">
-                                </td>
-                            </tr>
-                            <!-- Spacing -->
-                            </tbody></table>
-                    </td>
-                </tr>
-                </tbody></table>
-        </td>
-    </tr></tbody></table>
-<table width="100%" bgcolor="#f6f4f5" cellpadding="0" cellspacing="0" border="0" st-sortable="left-image"><tbody><tr>
-        <td>
-            <table bgcolor="#ffffff" width="580" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody>
-                <!-- Spacing --><tr>
-                    <td height="20">
-                    </td>
-                </tr>
-                <!-- Spacing --><tr>
-                    <td>
-                        <table width="540" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner"><tbody><tr>
-                                <td>
-                                    <!-- start of text content table -->
+                                                <table width="194" align="left" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td width="20">
+                                                            </td>
+                                                            <td width="174" height="60" align="left">
 
-                                    <table width="200" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner"><tbody>
-                                        <!-- image --><tr>
-                                            <td width="200" height="180" align="center">
+                                                            <?php
+                                                            if( ! empty( $header_img ) ) : ?>
+                                                                <div id="template_header_image">
+                                                                    <div class="imgpop">
+                                                                    <a href="<?php echo get_home_url(); ?>"><img src="<?php echo esc_url( $header_img ); ?>" alt="<?php echo get_bloginfo( 'name' ); ?>"></a>
+                                                                    </div>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                                
+                                                            </td>
+                                                        </tr></tbody></table>
+<!-- end of logo -->
+</td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td height="10" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing -->
+</tbody></table>
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="banner"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table width="560" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth"><tbody><tr>
+<!-- start of image --><td align="center">
                                                 <div class="imgpop">
-                                                    <img src="<?php echo get_give_email_images() ; ?>give-team-people.png" alt="" border="0" width="180"  style="display:block; border:none; outline:none; text-decoration:none;" st-image="edit" id="hen7vqnc5h93bldtr2s0v0a4i">
+                                                    <a href="<?php echo get_home_url(); ?>"><img width="560" border="0" height="200" alt="" style="display:block; border:none; outline:none; text-decoration:none;" src="<?php echo get_give_email_images(); ?>thankyou-header.jpg" class="banner" st-image="edit" id="sfali83g9a1xckyj4mbdibe29"></a>
                                                 </div>
                                             </td>
-                                        </tr>
-                                        </tbody></table>
-                                    <!-- mobile spacing --><table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing"><tbody><tr>
-                                            <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
-                                            </td>
                                         </tr></tbody></table>
-                                    <!-- mobile spacing --><!-- start of right column --><table width="330" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner"><tbody>
-                                        <!-- title --><tr>
-                                            <td style="font-family: Helvetica, arial, sans-serif; font-size: 18px; color: #333333; text-align:left;line-height: 20px;" st-title="leftimage-title">
-                                                <p>
-                                                    ABOUT THE GIVE TEAM
-                                                </p>
+<!-- end of image -->
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="1-image+text-column"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table bgcolor="#ffffff" width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
                                             </td>
                                         </tr>
-                                        <!-- end of title --><!-- Spacing --><tr>
-                                            <td width="100%" height="20">
+<!-- Spacing --><tr>
+<td>
+                                                <table width="520" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidthinner"><tbody>
+<!-- image -->
+<!-- /image --><!-- Spacing --><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                            </td>
+                                                        </tr>
+<!-- /Spacing --><tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px; color: #2d2a26; text-align:left; line-height: 24px;" st-content="title">
+                                                                <p>
+                                                                    Thank You So Much for Your Kind Donation!
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+<!-- Spacing --><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                            </td>
+                                                        </tr>
+<!-- /Spacing --><!-- content --><tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 24px;" st-content="text">
+                                                                {email}
+                                                            </td>
+                                                        </tr>
+<!-- end of content -->
+</tbody></table>
+</td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
                                             </td>
                                         </tr>
-                                        <!-- Spacing --><!-- content --><tr>
-                                            <td style="font-family: Helvetica, arial, sans-serif; font-size: 13px; color: #95a5a6; text-align:left;line-height: 24px;" st-content="leftimage-paragraph">
-                                                <p>
-                                                    We’ve been building and working with WordPress since 2009. Our team is dedicated to developing quality products that solve real problems. As well, we pride ourselves on support and community outreach. We regularly attend, speak at, and sponsor WordCamps throughout the world. We have made many great connections and friends along our journey.
-                                                </p>
+<!-- Spacing --><!-- Spacing --><tr>
+<td height="5" bgcolor="#2d2a26" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
                                             </td>
                                         </tr>
-                                        <!-- end of content --><!-- Spacing --><tr>
-                                            <td width="100%" height="10">
+<!-- Spacing -->
+</tbody></table>
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="3-images-columns"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table bgcolor="#2d2a26" width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
                                             </td>
                                         </tr>
-                                        <!-- button --><tr>
-                                            <td>
-                                                <table height="30" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" class="tablet-button" st-button="edit" style=" background-color:#66BB6A; border-top-left-radius:4px; border-bottom-left-radius:4px;border-top-right-radius:4px; border-bottom-right-radius:4px; background-clip: padding-box;font-size:13px; font-family:Helvetica, arial, sans-serif; text-align:center;  color:#ffffff; font-weight: 300; padding-left:18px; padding-right:18px;"><tbody><tr>
-                                                        <td style="padding-left:18px; padding-right:18px;font-family:Helvetica, arial, sans-serif; text-align:center;  color:#ffffff; font-weight: 300;" width="auto" align="center" valign="middle" height="30">
-                                                            <span style="color: #ffffff; font-weight: 300;"> <a style="color: #ffffff; text-align:center;text-decoration: none;" href="https://givewp.com/about-give/" st-content="read-more-button" tabindex="-1">Read More</a></span>
-                                                        </td>
-                                                    </tr></tbody></table>
+<!-- Spacing --><tr>
+<td>
+                                                <table width="520" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidthinner"><tbody><tr>
+<td>
+                                                                <!-- col 1 -->
+
+                                                                <table width="160" align="left" border="0" cellpadding="0" cellspacing="0" class="col3img"><tbody>
+<!-- image 2 --><tr>
+<td align="center">
+                                                                                <div class="imgpop">
+                                                                                    <img src="<?php echo get_give_email_images(); ?>3col.jpg" alt="" border="0" width="160" height="100" style="display:block; border:none; outline:none; text-decoration:none;" class="col3img" st-image="edit" id="swptqrzsks1p4o27cyehr529">
+</div>
+                                                                            </td>
+                                                                        </tr>
+<!-- end of image2 -->
+</tbody></table>
+<!-- spacing --><table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile"><tbody><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                                            </td>
+                                                                        </tr></tbody></table>
+<!-- end of spacing --><!-- col 2 --><table width="160" align="left" border="0" cellpadding="0" cellspacing="0" class="col3img"><tbody>
+<!-- image 2 --><tr>
+<td align="center">
+                                                                                <div class="imgpop">
+                                                                                    <img src="<?php echo get_give_email_images(); ?>3col.jpg" alt="" border="0" width="160" height="100" style="display:block; border:none; outline:none; text-decoration:none;" class="col3img" st-image="edit" id="0z49x3aodtclltp62u1h5mi">
+</div>
+                                                                            </td>
+                                                                        </tr>
+<!-- end of image2 -->
+</tbody></table>
+<!-- end of col 2 --><!-- spacing --><table width="1" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile"><tbody><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                                            </td>
+                                                                        </tr></tbody></table>
+<!-- end of spacing --><!-- col 3 --><table width="160" align="right" border="0" cellpadding="0" cellspacing="0" class="col3img"><tbody>
+<!-- image3 --><tr>
+<td align="center">
+                                        <div class="imgpop">
+                                            <img src="<?php echo get_give_email_images(); ?>3col.jpg" alt="" width="160" height="100" border="0" style="display:block; border:none; outline:none; text-decoration:none;" class="col3img" st-image="edit" id="osd2jwvpmvag3geqswou07ldi">
+</div>
+                                                                            </td>
+                                                                        </tr>
+<!-- end of image3 -->
+</tbody></table>
+</td>
+                                                        </tr></tbody></table>
+</td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
                                             </td>
                                         </tr>
-                                        <!-- /button -->
-                                        </tbody></table>
-                                    <!-- end of right column -->
-                                </td>
-                            </tr></tbody></table>
-                    </td>
-                </tr>
-                <!-- Spacing --><tr>
-                    <td height="20">
-                    </td>
-                </tr>
-                <!-- Spacing -->
-                </tbody></table>
-        </td>
-    </tr></tbody></table>
+<!-- Spacing -->
+</tbody></table>
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="left-image"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table bgcolor="#ffffff" width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td>
+                                                <table width="520" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody><tr>
+<td>
+                                                                <!-- Start of left column -->
+
+                                                                <table width="200" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth"><tbody>
+<!-- image --><tr>
+<td width="200" height="150" align="center" class="devicewidth">
+                                                                                <div class="imgpop">
+                                                                                    <img src="<?php echo get_give_email_images(); ?>leftimg.jpg" alt="" border="0" width="200" height="150" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img" st-image="edit" id="mmlk2b4f778bnrddir1wcdi">
+</div>
+                                                                            </td>
+                                                                        </tr>
+<!-- /image -->
+</tbody></table>
+<!-- end of left column --><!-- spacing for mobile devices--><table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing"><tbody><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                                            </td>
+                                                                        </tr></tbody></table>
+<!-- end of for mobile devices--><!-- start of right column --><table width="300" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthmob"><tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px; color: #2d2a26; text-align:left; line-height: 24px;" class="padding-top-right15" st-content="title">
+                                                                                <p>
+                                                                                    Your Heading Goes Here
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+<!-- end of title --><!-- Spacing --><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                                            </td>
+                                                                        </tr>
+<!-- /Spacing --><!-- content --><tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 24px;" class="padding-right15" st-content="text">
+                                                                                <p>
+                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+<!-- end of content -->
+</tbody></table>
+<!-- end of right column -->
+</td>
+                                                        </tr></tbody></table>
+</td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing --><!-- Spacing --><tr>
+<td height="5" bgcolor="#2d2a26" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing -->
+</tbody></table>
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="left-image"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table bgcolor="#ffffff" width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td>
+                                                <table width="520" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody><tr>
+<td>
+                                                                <!-- Start of left column -->
+
+                                                                <table width="200" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth"><tbody>
+<!-- image --><tr>
+<td width="200" height="150" align="center" class="devicewidth">
+                                                                                <div class="imgpop">
+                                                                                    <img src="<?php echo get_give_email_images(); ?>leftimg.jpg" alt="" border="0" width="200" height="150" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img" st-image="edit" id="fbegapoaxfgmtgycbr68yqfr">
+</div>
+                                                                            </td>
+                                                                        </tr>
+<!-- /image -->
+</tbody></table>
+<!-- end of left column --><!-- spacing for mobile devices--><table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing"><tbody><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                                            </td>
+                                                                        </tr></tbody></table>
+<!-- end of for mobile devices--><!-- start of right column --><table width="300" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthmob"><tbody>
+<tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 18px; color: #2d2a26; text-align:left; line-height: 24px;" class="padding-top-right15" st-content="title">
+                                                                                <p>
+                                                                                    Your Heading Goes Here
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+<!-- end of title --><!-- Spacing --><tr>
+<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                                                            </td>
+                                                                        </tr>
+<!-- /Spacing --><!-- content --><tr>
+<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 24px;" class="padding-right15" st-content="text">
+                                                                                <p>
+                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                                                                </p>
+                                                                            </td>
+                                                                        </tr>
+<!-- end of content -->
+</tbody></table>
+<!-- end of right column -->
+</td>
+                                                        </tr></tbody></table>
+</td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing --><!-- Spacing --><tr>
+<td height="5" bgcolor="#2d2a26" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing -->
+</tbody></table>
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
+<table width="100%" bgcolor="#d4d4d4" cellpadding="0" cellspacing="0" border="0" st-sortable="social"><tbody><tr>
+<td>
+                <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hasbackground="true"><tbody><tr>
+<td width="100%">
+                                <table bgcolor="#303030" width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth"><tbody>
+<!-- Spacing --><tr>
+<td height="10" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td>
+                                                <!-- logo -->
+
+                                                <table width="194" align="left" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td width="20">
+                                                            </td>
+                                                            <td width="174" height="40" align="left">
+                                                                <?php
+                                                            if( ! empty( $header_img ) ) : ?>
+                                                                <div id="template_header_image">
+                                                                    <div class="imgpop">
+                                                                    <a href="<?php echo get_home_url(); ?>"><img src="<?php echo esc_url( $header_img ); ?>" alt="<?php echo get_bloginfo( 'name' ); ?>"></a>
+                                                                    </div>
+                                                                </div>
+                                                            <?php endif; ?>
+                                                            </td>
+                                                        </tr></tbody></table>
+<!-- end of logo --><!-- start of social icons --><table width="60" height="40" align="right" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td width="22" height="22" align="left">
+                                                                <div class="imgpop">
+                                                                    <a href="#"><img src="<?php echo get_give_email_images(); ?>facebook.png" alt="" border="0" width="22" height="22" style="display:block; border:none; outline:none; text-decoration:none;" st-image="edit" id="jxy03efkk7wbmhr2eubqn0zfr"></a>
+                                                                </div>
+                                                            </td>
+                                                            <td align="left" width="10" style="font-size:1px; line-height:1px;">
+                                                            </td>
+                                                            <td width="22" height="22" align="right">
+                                                                <div class="imgpop">
+                                                                    <a href="#"><img src="<?php echo get_give_email_images(); ?>twitter.png" alt="" border="0" width="22" height="22" style="display:block; border:none; outline:none; text-decoration:none;" st-image="edit" id="86bwx3k0x62ae89muglex9a4i"></a>
+                                                                </div>
+                                                            </td>
+                                                            <td align="left" width="20" style="font-size:1px; line-height:1px;">
+                                                            </td>
+                                                        </tr></tbody></table>
+<!-- end of social icons -->
+</td>
+                                        </tr>
+<!-- Spacing --><tr>
+<td height="10" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">
+                                            </td>
+                                        </tr>
+<!-- Spacing -->
+</tbody></table>
+</td>
+                        </tr></tbody></table>
+</td>
+        </tr></tbody></table>
