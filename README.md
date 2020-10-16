@@ -22,10 +22,3 @@ The HTML/CSS in this demo originated from [The Stamplia Builder](https://builder
 ## License
 
 This project is licensed under the GNU Open Source License - see the [LICENSE.md](LICENSE.md) file for details.
-
-# About WordImpress
-
-![](https://github.com/WordImpress/woocommerce-preview-emails/raw/master/assets/img/wordimpress_logo.png)
-
-[Give](https://givewp.com) is the flagship product of WordImpress. We build impressive Plugins for your WordPress website. Find out more about us and read more great tutorials at [https://wordimpress.com](https://wordimpress.com).
-
